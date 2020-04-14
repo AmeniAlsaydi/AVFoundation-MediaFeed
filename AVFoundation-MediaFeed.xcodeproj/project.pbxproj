@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7B513AC24461918001D392A /* MediaFeedDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7B513AA24461918001D392A /* MediaFeedDataModel.xcdatamodeld */; };
 		B7EA438E2444B9D5005DF337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EA438D2444B9D5005DF337 /* AppDelegate.swift */; };
 		B7EA43902444B9D5005DF337 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EA438F2444B9D5005DF337 /* SceneDelegate.swift */; };
 		B7EA43952444B9D5005DF337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7EA43932444B9D5005DF337 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7B513AB24461918001D392A /* MediaFeedDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediaFeedDataModel.xcdatamodel; sourceTree = "<group>"; };
 		B7EA438A2444B9D5005DF337 /* AVFoundation-MediaFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVFoundation-MediaFeed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EA438D2444B9D5005DF337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7EA438F2444B9D5005DF337 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				B7EA438D2444B9D5005DF337 /* AppDelegate.swift */,
+				B7B513AA24461918001D392A /* MediaFeedDataModel.xcdatamodeld */,
 				B7EA438F2444B9D5005DF337 /* SceneDelegate.swift */,
 				B7EA43A12444BBE1005DF337 /* MediaFeedViewController.swift */,
 				B7EA43A92444EB64005DF337 /* URL+VideoPreviewThumbnail.swift */,
@@ -156,6 +159,7 @@
 				B7EA438E2444B9D5005DF337 /* AppDelegate.swift in Sources */,
 				B7EA43A22444BBE1005DF337 /* MediaFeedViewController.swift in Sources */,
 				B7EA43A42444C02D005DF337 /* MediaCell.swift in Sources */,
+				B7B513AC24461918001D392A /* MediaFeedDataModel.xcdatamodeld in Sources */,
 				B7EA43902444B9D5005DF337 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +360,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7B513AA24461918001D392A /* MediaFeedDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7B513AB24461918001D392A /* MediaFeedDataModel.xcdatamodel */,
+			);
+			currentVersion = B7B513AB24461918001D392A /* MediaFeedDataModel.xcdatamodel */;
+			path = MediaFeedDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B7EA43822444B9D5005DF337 /* Project object */;
 }
